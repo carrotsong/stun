@@ -16,7 +16,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/stun"
+	"github.com/carrotsong/stun"
 )
 
 var (

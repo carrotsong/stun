@@ -8,7 +8,7 @@ behaviour.
 
 ### Usage
 ```sh
-$ go get github.com/pion/stun/cmd/stun-nat-behaviour
+$ go get github.com/carrotsong/stun/cmd/stun-nat-behaviour
 $ $GOPATH/bin/stun-nat-behaviour [options] [--server IP:port]
 ```
 

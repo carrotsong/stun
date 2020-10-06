@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/stun"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/stun"
 )
 
 type StunServerConn struct {
@@ -304,7 +304,7 @@ func (c *StunServerConn) roundTrip(msg *stun.Message, addr net.Addr) (*stun.Mess
 	}
 }
 
-// taken from https://github.com/pion/stun/blob/master/cmd/stun-traversal/main.go
+// taken from https://github.com/carrotsong/stun/blob/master/cmd/stun-traversal/main.go
 func listen(conn *net.UDPConn) (messages chan *stun.Message) {
 	messages = make(chan *stun.Message)
 	go func() {

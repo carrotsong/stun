@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pion/stun"
+	"github.com/carrotsong/stun"
 )
 
 var server = flag.String("server", "pion.ly:3478", "Stun server address") // nolint:gochecknoglobals

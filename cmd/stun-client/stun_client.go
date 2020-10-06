@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/pion/stun"
+	"github.com/carrotsong/stun"
 )
 
 func main() {

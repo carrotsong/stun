@@ -7,7 +7,7 @@ import ( // nolint:gci
 	"fmt"
 	"strings"
 
-	"github.com/pion/stun/internal/hmac"
+	"github.com/carrotsong/stun/internal/hmac"
 )
 
 // separator for credentials.
